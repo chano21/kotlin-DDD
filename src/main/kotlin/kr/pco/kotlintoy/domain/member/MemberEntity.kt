@@ -5,7 +5,7 @@ import kr.pco.kotlintoy.domain.BaseEntity
 
 @Entity
 @Table(name="b_member")
-class MemberEntity(
+data class MemberEntity(
     @Id
     @Column(name="member_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
