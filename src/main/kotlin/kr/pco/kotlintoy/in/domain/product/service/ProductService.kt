@@ -1,4 +1,4 @@
-package kr.pco.kotlintoy.domain.product.service
+package kr.pco.kotlintoy.`in`.domain.product.service
 
 import org.springframework.stereotype.Service
 

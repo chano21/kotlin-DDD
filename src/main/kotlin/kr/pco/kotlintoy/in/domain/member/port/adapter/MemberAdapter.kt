@@ -1,4 +1,4 @@
-package kr.pco.kotlintoy.domain.member.port.adapter
+package kr.pco.kotlintoy.`in`.domain.member.port.adapter
 
 import org.springframework.stereotype.Repository
 import org.springframework.web.bind.annotation.GetMapping

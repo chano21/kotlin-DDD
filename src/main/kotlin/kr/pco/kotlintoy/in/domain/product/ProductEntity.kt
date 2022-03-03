@@ -1,6 +1,6 @@
-package kr.pco.kotlintoy.domain.product
+package kr.pco.kotlintoy.`in`.domain.product
 
-import kr.pco.kotlintoy.domain.BaseEntity
+import kr.pco.kotlintoy.`in`.domain.BaseEntity
 import javax.persistence.*
 
 @Entity

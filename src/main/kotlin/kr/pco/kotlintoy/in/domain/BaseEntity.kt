@@ -1,4 +1,4 @@
-package kr.pco.kotlintoy.domain
+package kr.pco.kotlintoy.`in`.domain
 
 import com.fasterxml.jackson.annotation.JsonFormat
 import org.springframework.data.annotation.CreatedDate

@@ -1,9 +1,9 @@
-package kr.pco.kotlintoy.domain.order
+package kr.pco.kotlintoy.`in`.domain.order
 
 import javax.persistence.*
-import kr.pco.kotlintoy.domain.BaseEntity
-import kr.pco.kotlintoy.domain.member.MemberEntity
-import kr.pco.kotlintoy.domain.product.ProductEntity
+import kr.pco.kotlintoy.`in`.domain.BaseEntity
+import kr.pco.kotlintoy.`in`.domain.member.MemberAggregate
+import kr.pco.kotlintoy.`in`.domain.product.ProductEntity
 
 
 @Entity
@@ -16,7 +16,7 @@ class OrderEntity(
 
     @JoinColumn(name = "member_id")
     @ManyToOne(fetch = FetchType.LAZY)
-    val member : MemberEntity, //주문한 회원은 변할수가없다.
+    val member : MemberAggregate, //주문한 회원은 변할수가없다.
 
     @JoinColumn(name = "product_id")
     @ManyToOne(fetch = FetchType.LAZY)
